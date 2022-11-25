@@ -1,51 +1,51 @@
 # create a Database in postgresql
 # create a table for each month using Database querytool defining their different data type before importing the csv
-create table bikeshare_jan(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_jan(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200);
                        
-create table bikeshare_feb(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_feb(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_march(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_march(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_april(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_april(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_may(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_may(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
                        
-create table bikeshare_june(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_june(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_july(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_july(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_aug(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_aug(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_sept(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_sept(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_oct(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_oct(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_nov(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_nov(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
-create table bikeshare_dec(ride_id varchar(200),rideable_type varchar(200), started_at timestamp,ended_at timestamp,
+create table bikeshare_dec(ride_id varchar(200) primary key,rideable_type varchar(200), started_at timestamp,ended_at timestamp,
                        start_station_name varchar(200),start_station_id varchar(200),end_station_name varchar(200),
                        end_station_id varchar (200),start_lat float,start_lag float,end_lat float,end_lag float,member_casual varchar (200));
                        
