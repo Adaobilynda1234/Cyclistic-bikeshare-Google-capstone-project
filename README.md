@@ -55,10 +55,11 @@ share, and act.
   1. PowerBi was used for data visualization
   
   2. Dax was used for KPI calculations
+  
+  ![bike capstone project_page-0001](https://user-images.githubusercontent.com/112834532/203967512-24d3f469-573a-43a4-b722-0def09682531.jpg)
+
   ----
-  # Act
-  ---
-   # Key insights:
+  # Key insights(presentation):
   1. Casual users prefer to use the services during weekend while member users prefer to use the service during weekdays with less usage during weekend
   
   2. Casual users prefer to use the service during summer (July-August),there is low patronage during winter
@@ -67,19 +68,21 @@ share, and act.
   
   4. Casual users average trip length tends to be longer weekend most especially on Sundays
   ---
-   # Recommendations:
+     # Limitations:
+   1. Limitation of data to 1 million row by software used
+   
+   2. Insufficient personal data e.g residential address,gender,age and occupation of users
+   
+  # Act
+  ---
+   # Recommendations (to act on):
   1. Introduction of weekend and summer annual membership plan
  
   2. introduction of bike type annual membership plan since some users have their own preference
   
   3. Running of promo\discount sales for annual membership during winter to improve sales.
   ---
-   # Limitations:
-   1. Limitation of data to 1 million row by software used
-   
-   2. Insufficient personal data e.g residential address,gender,age and occupation of users
-   
-   -------
+  
    
    
    
