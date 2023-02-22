@@ -68,7 +68,7 @@ share, and act.
   
   4. Casual users average trip length tends to be longer weekend most especially on Sundays
   ---
-     # Limitations:
+   # Limitations:
    1. Limitation of data to 1 million row by software used
    
    2. Insufficient personal data e.g residential address,gender,age and occupation of users
